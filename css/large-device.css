@@ -1,0 +1,191 @@
+
+.navbar-nav .nav-link {
+  padding:5px;
+  margin-bottom:2px;
+  color:#015249;
+}
+.navbar-brand img {
+  width:50px;
+  height:50px;
+}
+
+.carousel-item {
+  width:100%;
+  height:100vh;
+}
+
+.carousel-caption h5 {
+  font-size:4.5em;
+}
+.carousel-caption p {
+  font-size:2.5em;
+}
+
+.carousel-caption {
+    margin-bottom:110px;
+}
+.section1 {
+  position: relative;
+  margin:0;
+  padding:50px 0px 50px 0px;
+  background: -webkit-linear-gradient(left,#f0027f,#75489f);
+  background: linear-gradient(90deg,#f0027f,#75489f);
+  width:100%;
+  height:auto;
+}
+.section1-container {
+  margin-top:50px;
+}
+.section1 h2 {
+  color: #fff;
+  text-transform: uppercase;
+  text-shadow:0px 0px 5px #fff;
+  letter-spacing: 3px;
+  font-family: Source Sans Pro,sans-serif;
+  font-weight: 900;
+  font-size: 48px;
+}
+.section1 h3 {
+  font-size:20px;
+
+}
+.section2 {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  background-color:#015249;
+  width:100%;
+  height:auto;
+}
+.section2-container {
+  background-color:#fff;
+  border:12px solid brown;
+  height:500px;
+  margin:75px auto;
+}
+/*.section2:before {
+  content:'';
+  width:50%;
+  background-color:#015249;
+  position:absolute;
+  height:100px;
+  top:-48px;
+  left:0;
+  transform:skewY(8deg);
+}
+.section2:after {
+  content:'';
+  position:absolute;
+  width:50%;
+  background-color:#015249;
+  height:100px;
+  top:-48px;
+  right:0;
+  transform:skewY(-8deg);
+}*/
+
+    .section3 {
+      position: relative;
+      margin:0;
+      padding-bottom:100px;
+      background-color: #fff;
+      width:100%;
+      height:auto;
+    }
+    #curve {
+      position: absolute;
+      bottom:0;
+      width:100%;
+    }
+    #curve path {
+      fill:#9C27B0;
+    }
+    .section4 {
+      width:100%;
+      background-color:#9C27B0;
+      height:auto;
+      padding-bottom:25px;
+    }
+
+    .flip-container {
+      margin:50px 25px;
+    }
+    .flip {
+    	width:100%;
+      height:250px;
+    	}
+
+    	.flip > .front {
+        padding:15px 0px;
+    	  position:absolute;
+        width:100%;
+        height:250px;
+    		background:#fff;
+    		-webkit-backface-visibility: hidden;
+    		        backface-visibility: hidden;
+    		-webkit-transform: perspective(800px) rotateY( 0deg );
+    		        transform: perspective(800px) rotateY( 0deg );
+    		-webkit-transition:-webkit-transform .7s linear 0s;
+    		transition:-webkit-transform .7s linear 0s;
+    		transition:transform .7s linear 0s;
+    		transition: transform .7s linear 0s, -webkit-transform .7s linear 0s;
+    		box-shadow:0px 0px 10px #grey;
+        border:5px solid grey;
+        color:#015249;
+
+    	}
+
+    	.flip > .back {
+    		position:absolute;
+    		width:100%;
+        height:250px;
+    		background-color:#e6e6e6;
+    		-webkit-backface-visibility: hidden;
+    		        backface-visibility: hidden;
+    		-webkit-transform: perspective(800px) rotateY( 180deg );
+    		        transform: perspective(800px) rotateY( 180deg );
+    		-webkit-transition:-webkit-transform .7s linear 0s;
+    		transition:-webkit-transform .7s linear 0s;
+    		transition:transform .7s linear 0s;
+    		transition: transform .7s linear 0s, -webkit-transform .7s linear 0s;
+    		border-radius:5px;
+    		box-shadow:0px 0px 40px #e6e6e6;
+    		color:royalblue;
+    	}
+
+    	.flip:hover  > .front { -webkit-transform:perspective(600px) rotateY(-180deg); transform:perspective(600px) rotateY(-180deg);  }
+     	.flip:hover  > .back{ -webkit-transform:perspective(600px) rotateY(0deg); transform:perspective(600px) rotateY(0deg);  }
+
+
+  .message {
+	width:100%;
+	text-align:center;
+	border-bottom:1px solid silver;
+	line-height:0.1em;
+	margin:30px 0px 20px;
+}
+.message-text {
+	background-color:white;
+	color:silver;
+	text-shadow:0px 0px 2px grey;
+	font-size:30px;
+	padding:0 10px;
+}
+.bx-wrapper {
+  width: 100%;
+  border: 10px solid white;
+  box-sizing: border-box;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4);
+}
+.bx-wrapper .bx-viewport {
+  height: 189px !important;
+}
+.footer-bg {
+  background-color: #F3E5F5;
+}
+.bottom-footer {
+  background-color: #4A148C;
+  color:white;
+}
+
+/* Media Query */
